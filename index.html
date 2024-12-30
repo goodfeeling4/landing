@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .logo {  
+        }
+
+        .logo img{
+            width: 164px;
+        }
+
+        nav {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            font-family: "Segoe UI";
+        }
+        
+
+        .right ul {
+            display: flex;
+            gap: 34px;
+        }
+
+        .right ul li {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            cursor: pointer;
+        }
+        .right ul li span{
+            padding: 0 5px;
+
+        }
+        .an4{
+            animation: animation4 0.25s alternate-reverse  5 ;
+
+        }
+        .an3{
+            animation: animation3 0.30s alternate-reverse  5 ;
+            animation: name duration timing-function delay iteration-count direction fill-mode;
+        }
+        .an2{
+            animation: animation2 0.35s alternate-reverse  5;
+
+        }
+        .an1{
+            animation: animation 0.4s alternate-reverse  5;
+
+        }
+        @keyframes animation {
+            from{
+                transform: translatex(-700px) translateY(0px);
+            }
+            to{
+               
+                transform: translateX(0px);
+            }
+        }
+        @keyframes animation2 {
+            from{
+                transform: translatex(-700px) translateY(600px);
+            }
+            to{
+               
+                transform: translateX(0px);
+            }
+        }
+        @keyframes animation3 {
+            from{
+                transform: translatex(0px) translateY(600px);
+            }
+            to{
+               
+                transform: translateX(0px);
+            }
+        }
+        @keyframes animation4 {
+            from{
+                transform: translatex(700px) translateY(0px);
+            }
+            to{
+               
+                transform: translateX(0px);
+            }
+        }
+        
+
+    </style>
+</head>
+
+<body>
+    <header>
+        <nav>
+            <div class="logo">
+                <img src="https://www.ultraedit.com/wp-content/uploads/2023/01/Dark-logo.png" alt="">
+            </div>
+            <div class="right">
+                <ul>
+                    <li><span class="an1">Products <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></span>   
+                        </li>
+                        <li><span class="an2">Pricing <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></span>   
+                        </li>
+                        <li><span class="an3">Resources <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></span>   
+                        </li>
+                        <li><span class="an4">About Us <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M6 9L11.2929 14.2929C11.6262 14.6262 11.7929 14.7929 12 14.7929C12.2071 14.7929 12.3738 14.6262 12.7071 14.2929L18 9" stroke="#141B34" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg></span>   
+                        </li>
+                    <li>
+                        <img src="https://www.ultraedit.com/wp-content/themes/Divi_Child/img/Lang.png" alt=""></div>
+
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+</body>
+<script src="index.js"></script>
+</html>
